@@ -9,4 +9,4 @@ This includes, along with good commit messages, the elements hereunder:
 - Links
 - Images
 
-You can explore the demo at [https://jaimeelcarte.github.io/odin-recipes/](https://jaimeelcarte.github.io/odin-recipes/)
+You can explore the demo <a href="https://jaimeelcarte.github.io/odin-recipes/" target="_blank">here</a>
