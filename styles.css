@@ -30,6 +30,11 @@ body {
   color: black;
 }
 
+.header-right a:hover {
+  color: black;
+  background-color: #E2B167;
+}
+
 .header-right {
   float: right;
   padding: 32px 0px;
@@ -44,6 +49,16 @@ body {
   .header-right {
     float: none;
   }
+}
+
+.content {
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 .recipes {
