@@ -81,6 +81,7 @@ h1 {
 h2 {
   font-size: 24px;
   font-weight: bold;
+  margin-top: 50px;
 }
 
 p {
@@ -89,12 +90,11 @@ p {
 
 .ingredients,
 .steps {
-  display: inline-block;
   text-align: left;
 }
 
 .ingredients li, 
 .steps li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 22px;
 }
