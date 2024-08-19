@@ -65,12 +65,44 @@ h1 {
   font-size: 48px;
 }
 
-.recipes {
-  display: inline-block;
-  text-align: left;
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between grid items */
+  margin-top: 50px;
+  padding: 20px;
 }
 
-.recipes a {
-  font-family: Verdana, "Tahoma", sans-serif;
-  font-size: 28px;
+.recipe-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; /* Optional: adds rounded corners */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.recipe-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.recipe-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.recipe-item:hover .recipe-overlay {
+  opacity: 1;
 }
