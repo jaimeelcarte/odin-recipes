@@ -96,4 +96,5 @@ p {
 .ingredients li, 
 .steps li {
   margin-bottom: 10px;
+  font-size: 22px;
 }
