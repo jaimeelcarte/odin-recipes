@@ -36,7 +36,7 @@ body {
 
 .header-right a:hover {
   color: black;
-  background-color: #E2B167;
+  background-color: #e2b167;
 }
 
 .header-right {
@@ -57,7 +57,7 @@ body {
 
 .content {
   text-align: left;
-  padding: 20px;
+  padding: 20px 60px;
   font-size: 20px;
 }
 
@@ -67,10 +67,10 @@ h1 {
 
 .recipe-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-columns: repeat(2, 1fr); /* 3 columns */
   gap: 20px; /* Space between grid items */
   margin-top: 50px;
-  padding: 20px;
+  padding: 20px 60px;
 }
 
 .recipe-item {
